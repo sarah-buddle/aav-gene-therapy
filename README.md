@@ -40,10 +40,15 @@ metaMix v0.4
 
 ## Reference genomes
 Human genome GRCh38 was used for all analyses.
+
 Viral reference genome accession numbers can be found in reference_accessions.csv.
+
 The manufacturing plasmid sequences are not available on RefSeq/GenBank to the best of our knowledge.
+
 pSMN:  Kaspar, B. K., Burghes, A. & Porensky, P. Intrathecal delivery of recombinant Adeno-associated virus 9. (2022). AMR gene from patent sequence replaced by KanR (see methods section).
+
 pAAV2/9: Gao, G., Wilson, J. & Alvira, M. Adeno-associated virus (aav) serotype 9 sequences, vectors containing same, and uses therefor. (2005).
+
 pHelper: Gray, J. Molecule Information, pHGTI-Adeno1, Harvard Gene Therapy Initiative. (2004).
 
 
