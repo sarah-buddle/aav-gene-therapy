@@ -32,7 +32,7 @@ for genome in NC_001401 NC_000898.1 NC_001405 pSMN pAAV29 pHelper; do
     $samtools index ${results}/${dnarna}/${sample}_${dnarna}_${genome}_dedup_v2.bam
 
     # Calculate depth
-    $samtools depth ${results}/${dnarna}/${sample}_${dnarna}_${genome}_dedup_v2.bam \
+    $samtools depth -a ${results}/${dnarna}/${sample}_${dnarna}_${genome}_dedup_v2.bam \
     > ${results}/${dnarna}/${sample}_${dnarna}_${genome}_dedup_depth_v2.txt
 
     # Create fastq
@@ -65,7 +65,7 @@ for genome in NC_001401 NC_000898.1 NC_001405 pSMN pAAV29 pHelper; do
 
     $samtools index ${results}/${dnarna}/${sample}_${dnarna}_${genome}_raw_dedup.bam
 
-    $samtools depth ${results}/${dnarna}/${sample}_${dnarna}_${genome}_raw_dedup.bam \
+    $samtools depth -a ${results}/${dnarna}/${sample}_${dnarna}_${genome}_raw_dedup.bam \
     > ${results}/${dnarna}/${sample}_${dnarna}_${genome}_raw_dedup_depth.txt
 
     $samtools fastq ${results}/${dnarna}/${sample}_${dnarna}_${genome}_raw_dedup.bam \
