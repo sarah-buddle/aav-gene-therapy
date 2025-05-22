@@ -10,7 +10,7 @@ Taxonomic classification was also run with the nf-core pipeline taxprofiler usin
 ## Long read metagenomic sequencing
 Following basecalling with Minknow, data was preprocessed using preprocess_nanopore.sh.
 The trimmed reads were aligned to the plasmid sequences using gt_alignments_nanopore.sh and filtered using filter_sam.R.
-Alignment dot plots were produced from teh outputs using gt_dot_plots.sh.
+Alignment dot plots were produced from the outputs using gt_dot_plots.sh and alignment dot plots for the human genes GTF2H2 and ACTB using human_alignment_dot_plots.sh.
 Taxonomic classification was also run with the nf-core pipeline taxprofiler using Kraken2 and Bracken, with the script taxprofiler_kraken2.sh.
 
 ## Version of main tools used in analysis
